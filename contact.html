@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Jose Luis Sanchez Mejia" />
+        <meta name="description" content="information about me" />
+        <title>Contact and Information</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <div class="container">
+    <body>
+        <header class="headersection002">
+            <h1><strong>Contact and Information</strong></h1>
+        </header>
+        
+        <main class="mainsection003">
+            <div class="tekstformatmain003">
+            <p>Please send us your details and upload your recepi so that we can post it online!</p>
+            <form name="contactformulier" method="POST" data-netlify="true">
+                
+                <p><input class="form" type="text" name="name" id="name" value="Enter Your Name" required/>
+                </p>
+                <p>
+                <input class="form" type="email" name="email" id="email" value="Enter Your Email" required/>
+                </p>
+                <p><em>Enter Your Phone:</em></p>
+                <input class="form" type="number" name="tel" id="tel" required/>
+        
+                <p><em>Enter Your Age:</em></p>
+                <input class="form" type="number" name="age" id="age" min="1" max="200" required/>
+                
+                
+                <p><em>Enter your Birthday:</em></p>
+                <input class="form" type="date" name="date" id="date"/>
+                <p><em>Enter Your Url:</em></p>
+                    <label><input type="url" class="form" name="url" id="url"></label>
+                <p><em>Select your favorite cuisine:</em></p>
+                <p class="checkbox">
+                    <label for="Frans">Frans<input type="checkbox" name="Frans" value="Frans">
+                    </label>
+                    <label for="Italiaans">Italiaans<input type="checkbox" id="Italiaans" name="Italiaans" value="Italiaans">
+                    </label>
+                    <label for="Spaanse">Spaans<input type="checkbox" id="spaans" name="spaans" value="spaans">
+                    </label>
+                    <label for="Arabisch">Arabisch<input type="checkbox" id="Arabisch" name="Arabisch" value="Arabisch"/>
+                    </label>
+                </p>
+                <p><em>Select your Gender:</em></p>
+                <p class="checkbox">
+                    <label for="Male">Male<input type="radio" name="Male" id="Male" value="Male">
+                    </label>
+                    <label for="Female">Female<input type="radio" name="Female" id="Female" value="Female">
+                    </label>
+                </p>
+                <p>
+                    <textarea class="form" name="message" rows="15" cols="20"> Please leave your Bio.  
+                    </textarea>
+                </p>
+                <p><label><input type="file" name="file" id="file"></label></p>
+                <p><em>Select Your Favourite Short color:</em></p>
+                <label><input type="color" class="color" name="colorpick" id="color"></label>
+                <br><input class="publicatiebutton" type="reset"/><br>
+                <input class="publicatiebutton" type="submit" value="Verzenden"/>
+            </form>
+            </div>
+        </main>
+        <footer class="footersection003">
+            <nav>
+                <p>Via deze snelle link kom je weer op onze home pagina.
+                <a href="index.html">Back to "INTI Solutions" </a>
+                </p>
+            </nav>
+            <h6 class="brandsection002"><em><strong>Inti Solutions maakt deel uit van @INTI GROUP.nl</strong></em>
+            </h6>
+        </footer>
+    </body>
+    </div>
+</html>
